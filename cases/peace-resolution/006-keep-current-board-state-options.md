@@ -3,7 +3,7 @@ id: PR-006
 title: Keep Current Board State, the options
 status: rules-derived
 printing: third-2026
-rules: ["Peace Terms, Keep Current Board State p.30"]
+rules: ["Peace Terms, Keep Current Board State p.30", "Player Aid B footnote 8"]
 tags: [peace-resolution, keep-current-board-state, ducats, capital]
 source: ""
 contributors: []
@@ -23,8 +23,8 @@ What can A actually do with this term?
 3. **Only the Victor** may instead choose one or both of:
    - **Exchange** occupied Provinces for Provinces of **equal Tax Value** that the Loser occupies. Here A could hand back the Tax-2 Province A occupies, in exchange for the Tax-2 Province of A's that B occupies.
    - **Return** Provinces and demand **3 Ducats per Tax Value** returned. Returning the Tax-3 Province asks for 9 Ducats.
-4. **Cap:** total Ducats demanded from returning a Capital and other Provinces is capped at **2 × the Loser's Tax Income after returns**: here 2 × 5 = **10**. So demanding for Tax 2 + Tax 3 = 15 would be capped at 10.
+4. **Cap:** the Loser can **never be forced to pay more than 2 × their Tax Income, in total** (Player Aid B, footnote 8). With a Tax Income of 5 after returns, that is **10**. The same footnote covers the Capital ransom, so **the 10-Ducat ransom counts inside the cap**. In this setup the ransom alone already reaches 10, so A could not also demand Ducats for returning the other Provinces. *(Without an occupied Capital: returning Tax 2 + Tax 3 would ask for 3 × 5 = 15, capped at 10.)*
 5. Anyone who lost Provinces this way may place a Claim in each Area where they lost at least 1 Province (p.30).
 
 ## Status notes
-Whether the 10-Ducat Capital ransom counts **inside** the cap is [Q2](../../docs/open-questions.md). Steps 3–4 assume the Capital is not involved.
+Cap and ransom: the official flow chart says the Loser "can never be forced to pay more than 2 × Tax Income to Victor, **in total**", with the same footnote on both the ransom and the 3D per Tax Value demand ([Q2](../../docs/open-questions.md), answered). The cap is worded as a limit on what can be *forced*, so it may not limit a price the two players agree between themselves in a Negotiated Peace ([Q10](../../docs/open-questions.md), still open).

@@ -27,4 +27,4 @@ Can A still force terms?
 Otherwise the war simply continues. You aren't obliged to end a war (§10.1 step 3).
 
 ## Status notes
-Straight from §10.1 and §10.2. The White Peace term text (p.30) says occupied Provinces return to their Lawful Owners and "any PRs involved lose 1 [Prestige] each". Whether that Prestige loss also applies to an **Automatic** White Peace is not explicit: see [Q8](../../docs/open-questions.md).
+Straight from §10.1 and §10.2. The White Peace term text (p.30) says occupied Provinces return to their Lawful Owners and "any PRs involved lose 1 [Prestige] each". The official flow chart (Player Aid B) confirms the Prestige loss also applies to an **Automatic** White Peace: each PR loses 1 Prestige per White Peace it enters ([Q8](../../docs/open-questions.md), now answered).

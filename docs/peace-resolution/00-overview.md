@@ -1,6 +1,6 @@
 # Peace Resolution in plain English
 
-*Based on the third printing (2026) rulebook, §10, pp. 29–31. This is a paraphrase to help you read the rules, not a replacement for them. Where we are unsure, we say so and link to [open questions](../open-questions.md).*
+*Based on the third printing (2026) rulebook, §10, pp. 29–31, checked against the publisher's own Peace Resolution flow chart (Player Aid B, v1.3, 2026). Use that official chart alongside this guide; we don't reproduce it here. This is a paraphrase to help you read the rules, not a replacement for them. Where we are unsure, we say so and link to [open questions](../open-questions.md).*
 
 ## The one-paragraph version
 
@@ -11,7 +11,7 @@ Peace is settled once per round, in **Phase 3, Step D**. First, wars where nobod
 ```mermaid
 flowchart TD
     A[Phase 3, Step D: Peace Resolution] --> B{1. Does any war meet<br/>Automatic White Peace?<br/>No side occupies any enemy Province}
-    B -- yes --> B1[War ends now as White Peace.<br/>Allies included, no separate peace]
+    B -- yes --> B1[War ends now as White Peace.<br/>Each PR loses 1 Prestige per White Peace.<br/>Allies included, no separate peace]
     B -- no --> C
     B1 --> C{2. Does any player meet<br/>Total Victory in a war?}
     C -- yes --> C1[Resolve Total Victories in turn order.<br/>Each player finishes all theirs before the next.<br/>Victor MUST enforce a term unless a Negotiated Peace is agreed]
@@ -29,19 +29,20 @@ flowchart TD
 ```
 
 Two details that are easy to miss:
-- **Step 3 is optional per war.** You may leave a war running if the only terms you can enforce are bad (§10.2).
+- **Step 3 is optional per war, but there are no take-backs.** You may leave a war running if the only terms you can enforce are bad (§10.2). But once a player has answered "no, I don't want to end a war" they cannot answer "yes" later in the Peace Resolution step that Round (Player Aid B, footnote 3).
+- **If the Victor is a Bot,** the official chart sends you to *Bot Peace Resolution* in the Solo & Bot rules (p.15) instead of the steps below.
 - **Vassals count as part of their Overlord's Realm** for everything here (§10, intro).
 
 ## How well did you win? (table, p. 29)
 
 | Result | What you need | What you can do |
 |---|---|---|
-| **Automatic White Peace** | Neither side occupies any of the other's Provinces (including those of Vassals and Active Allies) | White Peace only. Terms are fixed. |
+| **Automatic White Peace** | Neither side occupies any of the other's Provinces (including those of Vassals and Active Allies) | White Peace only. Terms are fixed. **Each PR loses 1 Prestige per White Peace it enters** (Player Aid B). |
 | **Total Victory** | You occupy **all** of one Enemy's *de jure* Provinces **and** that Enemy has no Deployed Land Units | Any term (if extra requirements met). Can make a **separate** peace with Active Allies. |
-| **Partial Victory** | vs human: your Deployed Land Units **outnumber theirs 2:1**, **or** they Surrender. vs NPR/Bot: your Deployed Land Units outnumber the NPR's strength on the board plus any Deployed Enemy Land Units | Any term **except Full Annexation**. Active Allies are included in the same peace (see exception for Secure Desired Succession). |
+| **Partial Victory** | vs human: **either player** with **twice as many** Deployed Land Units as the other (exactly 2× is enough), **or** the enemy Surrenders. vs NPR/Bot: your Deployed Land Units outnumber the NPR's strength on the board plus any Deployed Enemy Land Units | Any term **except Full Annexation**. Active Allies are included in the same peace (see exception for Secure Desired Succession). |
 | **Inconclusive** | None of the above | White Peace, or Negotiated Peace (human enemy). Nobody can enforce terms unless someone Surrenders. |
 
-Notes: an NPR always counts as having 0 Deployed Land Units. Units on Distant Continents may not count (see [open question Q4](../open-questions.md)).
+Notes: an NPR always counts as having 0 Deployed Land Units. Land Units on Distant Continents **where the enemy PR has no Town do not count** towards these comparisons (Player Aid B, footnote 5). Only **human** players can Surrender, and a player who Surrenders is the Loser (Player Aid B, footnote 6).
 
 ## Which terms can I use? (table, p. 31)
 

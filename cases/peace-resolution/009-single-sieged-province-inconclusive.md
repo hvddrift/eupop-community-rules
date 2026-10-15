@@ -59,7 +59,8 @@ Surrender is the only way to *enforce* terms on an Inconclusive war.
   - **Humiliation**: allowed *without* occupying the Capital because Venice surrendered. All occupied Provinces return; the Ottomans score **2 × Tax Value returned to Venice (max 10)**, Venice loses the same. For Crete that is **2T**, so 2 Prestige if T = 1 (p.30).
   - **Keep Current Board State**, enforced: Ottomans keep Crete, **or** return it and demand **3 Ducats per Tax Value** (3T), capped at **2 × Venice's Tax Income** after returns, **or** swap it for a Province of equal Tax Value that Venice holds (p.30).
   - Not available: Full Annexation (Partial Victory can't), Vassalization/Force Conversion/Secure Desired Succession (need the Capital).
-- **Ottomans Surrender:** the mirror image with Venice as Victor. Left for a contributor to work through.
+- **Ottomans Surrender:** Venice becomes the Victor, and the Ottomans lose 2 Prestige to Venice's 2 (p.30). Venice may enforce Humiliation without holding the Ottoman Capital (Player Aid B, footnote 6). Crete returns to Venice. But Humiliation's Prestige is 2 × the Tax Value of Provinces returned *to the Loser*, and Venice occupies nothing of the Ottomans', so that part scores **0**. Only the 2-point Surrender swap changes hands.
+- Only **human** players can Surrender, and the Victor must enforce a peace they can meet the requirements for (Player Aid B, footnote 6).
 
 ### If nobody agrees
 The war simply continues. You are never forced to end a war in step 3 (§10.1). **Truce** only starts once a peace is concluded (§10.4).

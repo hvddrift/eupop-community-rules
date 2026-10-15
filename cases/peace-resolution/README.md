@@ -5,7 +5,7 @@ All cases cite the **third printing (2026)** rulebook. Status key: 🟢 confirme
 | ID | Case | Status |
 |---|---|---|
 | [PR-001](001-automatic-white-peace-with-ally.md) | Automatic White Peace when the enemy has an Active Ally | 🔵 |
-| [PR-002](002-partial-victory-2-to-1-threshold.md) | Partial Victory and the 2:1 threshold | 🔴 (one scenario) |
+| [PR-002](002-partial-victory-2-to-1-threshold.md) | Partial Victory and the 2:1 threshold | 🟢 |
 | [PR-003](003-total-victory-vs-active-ally.md) | Total Victory against an Active Ally NPR | 🔵 |
 | [PR-004](004-partial-victory-with-allies.md) | Partial Victory over a PR that has an Active Ally | 🔵 |
 | [PR-005](005-surrender.md) | Surrender | 🔵 |

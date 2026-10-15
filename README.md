@@ -6,7 +6,7 @@ The rulebook is precise but terse, and the trickiest parts (especially **Peace R
 
 > **Unofficial fan project.** Not affiliated with or endorsed by Paradox Interactive or the game's publisher. You need the rulebook to play. We paraphrase and cite page numbers; we do not copy the rulebook, card text or artwork. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Rule references in this repo are to the **third printing (2026) multiplayer rulebook**. If your printing differs, note it in your contribution.
+Rule references in this repo are to the **third printing (2026) multiplayer rulebook**. If your printing differs, note it in your contribution. The publisher's own **Peace Resolution flow chart (Player Aid B, v1.3, 2026)** is the official companion: use it alongside this guide. We cite it but don't reproduce it.
 
 ## Where to start
 
