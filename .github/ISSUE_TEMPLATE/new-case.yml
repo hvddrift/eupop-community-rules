@@ -1,0 +1,50 @@
+name: Submit a case
+description: Share a worked example or edge case
+title: "[Case] "
+labels: ["case"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Paraphrase the rules and cite pages. Please don't paste rulebook text. We use the **third printing (2026)** rulebook.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: Peace Resolution, Warfare, HRE, ...
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Who is at war, who occupies what, unit counts, allies, human/Bot/NPR.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What is confusing?
+    validations:
+      required: true
+  - type: textarea
+    id: resolution
+    attributes:
+      label: Your step-by-step resolution, with section and page for each step
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: How sure are you?
+      options:
+        - Follows directly from the rules (rules-derived)
+        - Agreed in a discussion (consensus; please link)
+        - Official ruling (confirmed; please link)
+        - Not sure (disputed)
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to discussion or ruling (if any)
