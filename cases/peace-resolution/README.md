@@ -23,7 +23,10 @@ All cases cite the **third printing (2026)** rulebook. Status key: 🟢 confirme
 | [PR-017](017-negotiated-peace-ducats-settled-together.md) | Ducats in one peace are settled together | 🟡 |
 | [PR-018](018-secure-desired-succession-alliance.md) | Secure Desired Succession and the Alliance limit | 🔴 |
 | [PR-019](019-enforce-on-your-own-turn.md) | You Enforce Peace Terms only on your own turn | 🟢 |
+| [PR-020](020-force-conversion-control.md) | Force Conversion and "Control" (Livonian Order, Riga) | 🟢 |
+| [PR-021](021-active-ally-provinces-keep-current-board-state.md) | Provinces of an Active Ally under Keep Current Board State, and who pays | 🔴 |
+| [PR-022](022-partial-victory-vs-npr-rebel-units.md) | Partial Victory against an NPR: what is counted (Ottomans vs the Mamluks DNPR) | 🟡 |
 
-**Not yet covered (good first contributions):** Force Conversion, Full Annexation worked examples, Defending the HRE peace examples (the rule is summarised in the overview), peace between two player realms, Vassalization of an Active NPR ally, freeing an NPR Capital, War on a vassal. See also [general rules](../../docs/general/README.md).
+**Not yet covered (good first contributions):** Full Annexation worked examples, Defending the HRE peace examples (the rule is summarised in the overview), peace between two player realms, Vassalization of an Active NPR ally, freeing an NPR Capital, War on a vassal. See also [general rules](../../docs/general/README.md).
 
 New case? Copy [`../_TEMPLATE.md`](../_TEMPLATE.md).

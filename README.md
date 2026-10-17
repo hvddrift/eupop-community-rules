@@ -14,7 +14,7 @@ Rule references in this repo are to the **third printing (2026) multiplayer rule
 |---|---|
 | Understand Peace Resolution in plain English | [docs/peace-resolution/00-overview.md](docs/peace-resolution/00-overview.md) |
 | See worked examples | [cases/peace-resolution/](cases/peace-resolution/) |
-| Wars, Truces and other general rules | [docs/general/](docs/general/README.md) |
+| Wars, Truces, HRE, religion, naval, DNPRs and other general rules | [docs/general/](docs/general/README.md) |
 | See what we are still unsure about | [docs/open-questions.md](docs/open-questions.md) |
 | Known chart and printing issues | [docs/known-issues.md](docs/known-issues.md) |
 | Add an example or ask a question | [CONTRIBUTING.md](CONTRIBUTING.md) |

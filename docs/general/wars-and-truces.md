@@ -22,3 +22,6 @@ The **one case where it matters** (Mikhs): **Defending the HRE**. The Emperor's 
 - **Truces are bidirectional** (🟡 Atlas). Neither side can declare war on the other, or on the other's NPR Allies or Vassals, whichever Capital holds the token.
 - A **CB token ignores a Truce**.
 - Subtle (🟡 Atlas): the wording is slightly different from "if you were at war last Round, you have a Truce this Round". If you **Cut Ties with an NPR Ally during the Truce Round**, only you get a Truce with that NPR, not everyone you have a Truce with.
+
+## Restrictions on Declaring War (p.22, paraphrased) 🔵
+You may not Declare War: on an Ally; on a Realm you have a Truce with (unless you use a General CB token); on a PR that has Passed; on an NPR Ally of a PR you have a Truce with or who has Passed; on certain HRE Members at peace with the Emperor (if he is your Ally, has a Truce with you, or has Passed); on Distant Realms you have no CB for; or during an Interregnum. Exceptions: a Marriage showing the Disputed Succession side lets you Declare War on an Ally or during an Interregnum; you can ignore every restriction when answering a Defensive CtA; and an Event that triggers a war states its own exceptions. The list doesn't say "a Realm you are already at war with", but Mikhs ruled you can't (🟢, 11 Oct 2026).

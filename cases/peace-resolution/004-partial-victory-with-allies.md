@@ -23,5 +23,8 @@ A has the units to claim Partial Victory against C but not against B. Can A forc
 3. Peace is then enforced or negotiated **simultaneously** for B and C. **Only one Peace Term** may be chosen for all realms involved (§10.3).
 4. For **Vassalization** and **Force Conversion**, the term's effects apply only to the Realms for which the Victor can also satisfy all the additional requirements. For the remaining Realms, treat it as a White Peace between the parties (with no Prestige loss), with Occupied Provinces returned to their Lawful Owners (§10.3).
 
+## See also
+One term for all the realms, applied to each separately: [PR-021](021-active-ally-provinces-keep-current-board-state.md).
+
 ## Status notes
 Interactions between Step 4 and the table row "separate peace with Active Allies: No" are covered in [Q3](../../docs/open-questions.md).

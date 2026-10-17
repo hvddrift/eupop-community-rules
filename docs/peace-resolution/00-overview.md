@@ -38,6 +38,8 @@ Two details that are easy to miss:
 - **Allies resolve separately, unless the ally is an NPR Active Ally.** Two PRs at war with the same enemy each get their own Peace Resolution, in Turn Order, and their occupied Provinces do **not** combine for Total Victory (🟢 Eivind, Sep 2026). See [PR-013](../../cases/peace-resolution/013-two-prs-one-npr.md), [PR-016](../../cases/peace-resolution/016-two-allied-prs-one-human-enemy.md).
 - **Only PRs can be Victors.** NPRs never Occupy Provinces, so a successful NPR Invasion leaves Rebels. See [PR-014](../../cases/peace-resolution/014-npr-counter-invasion-rebels.md).
 - **Automatic White Peace is not the White Peace term.** It ends the war on the current board and does **not** restore pre-war conditions, and Prestige is still lost (Player Aid B; 🟢 Mikhs, Sep 2026).
+- **"Controlled" means Owned or Occupied.** Force Conversion needs you to Control the whole Capital Area, and your own Vassals' Provinces don't count (🟢 Mikhs, Oct 2026). See [PR-020](../../cases/peace-resolution/020-force-conversion-control.md).
+- **Active Ally Provinces under Keep Current Board State** are handled in [PR-021](../../cases/peace-resolution/021-active-ally-provinces-keep-current-board-state.md). One Peace Term covers the PR and its Active Allies, applied separately to each.
 - **Ducats in one peace are settled together** (🟡 Miroku20X6, Oct 2026): see [PR-017](../../cases/peace-resolution/017-negotiated-peace-ducats-settled-together.md).
 
 ## How well did you win? (table, p. 29)
@@ -46,7 +48,7 @@ Two details that are easy to miss:
 |---|---|---|
 | **Automatic White Peace** | Neither side occupies any of the other's Provinces (including those of Vassals and Active Allies) | White Peace only. Terms are fixed. **Each PR loses 1 Prestige per White Peace it enters** (Player Aid B). |
 | **Total Victory** | You occupy **all** of one Enemy's *de jure* Provinces **and** that Enemy has no Deployed Land Units | Any term (if extra requirements met). Can make a **separate** peace with Active Allies. |
-| **Partial Victory** | vs human: **either player** with **twice as many** Deployed Land Units as the other (exactly 2× is enough), **or** the enemy Surrenders. vs NPR/Bot: your Deployed Land Units outnumber the NPR's strength on the board plus any Deployed Enemy Land Units | Any term **except Full Annexation**. Active Allies are included in the same peace (see exception for Secure Desired Succession). |
+| **Partial Victory** | vs human: **either player** with **twice as many** Deployed Land Units as the other (exactly 2× is enough; you still enforce on your own turn), **or** the enemy Surrenders. vs NPR/Bot: your Deployed Land Units outnumber the Rebel Units in your Areas plus any Deployed Enemy Land Units (NPRs have none), see [PR-022](../../cases/peace-resolution/022-partial-victory-vs-npr-rebel-units.md) | Any term **except Full Annexation**. Active Allies are included in the same peace (see exception for Secure Desired Succession). |
 | **Inconclusive** | None of the above | White Peace, or Negotiated Peace (human enemy). Nobody can enforce terms unless someone Surrenders. |
 
 Notes: an NPR always counts as having 0 Deployed Land Units. Land Units on Distant Continents **where the enemy PR has no Town do not count** towards these comparisons (Player Aid B, footnote 5). Only **human** players can Surrender, and a player who Surrenders is the Loser (Player Aid B, footnote 6).
