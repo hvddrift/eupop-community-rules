@@ -78,6 +78,11 @@ Truce token between Ottomans and Venice until Phase 3 of the next Round; units i
 
 Missing from the list: the other **Player-to-Player add-ons** (marriage, alliance, buying provinces, Cut Ties), the **Surrender** routes, and the option to **keep fighting**.
 
+## Further notes from the community
+- **Liberation is allowed in a negotiated Keep Current Board State.** p.31: both sides may agree to Liberate Provinces **if they give up all Prestige gains from Liberation** (🔵 rulebook text).
+- **A Victor can matter** for terms that only a Victor can use. Mikhs said this also affects what a named Victor can apply (see above). A Discord thread (Sept 2025, link to be added) also reported that the HRE's Imperial Authority effects need a Victor; treat that as 🟡 until linked.
+- **How many Ducats?** Still not stated for negotiated deals. Likely player-agreed, but there is no explicit ruling ([Q10](../../docs/open-questions.md)). Ducats in the same deal are settled together ([PR-017](017-negotiated-peace-ducats-settled-together.md)).
+
 ## Why (the intent)
 Inconclusive wars are a bargain, not a verdict. The rules deliberately give the Victor-style menu only to someone who has earned it (2:1) or been conceded it (Surrender).
 

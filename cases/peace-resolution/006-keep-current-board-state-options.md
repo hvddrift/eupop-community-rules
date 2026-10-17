@@ -26,5 +26,8 @@ What can A actually do with this term?
 4. **Cap:** the Loser can **never be forced to pay more than 2 × their Tax Income, in total** (Player Aid B, footnote 8). With a Tax Income of 5 after returns, that is **10**. The same footnote covers the Capital ransom, so **the 10-Ducat ransom counts inside the cap**. In this setup the ransom alone already reaches 10, so A could not also demand Ducats for returning the other Provinces. *(Without an occupied Capital: returning Tax 2 + Tax 3 would ask for 3 × 5 = 15, capped at 10.)*
 5. Anyone who lost Provinces this way may place a Claim in each Area where they lost at least 1 Province (p.30).
 
+## Negotiated version
+In a **Negotiated Peace** either party may exchange Occupied Provinces for Ducats (p.31), and the Ducats are settled **together** with the rest of the deal (🟡 Miroku20X6, Oct 2026): see [PR-017](017-negotiated-peace-ducats-settled-together.md). If a Vassal-owning NPR is involved, see [PR-015](015-npr-with-vassals.md).
+
 ## Status notes
 Cap and ransom: the official flow chart says the Loser "can never be forced to pay more than 2 × Tax Income to Victor, **in total**", with the same footnote on both the ransom and the 3D per Tax Value demand ([Q2](../../docs/open-questions.md), answered). The cap is worded as a limit on what can be *forced*, so it may not limit a price the two players agree between themselves in a Negotiated Peace ([Q10](../../docs/open-questions.md), still open).

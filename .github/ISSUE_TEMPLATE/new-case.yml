@@ -42,6 +42,7 @@ body:
         - Agreed in a discussion (consensus; please link)
         - Official ruling (confirmed; please link)
         - Not sure (disputed)
+        - A table houserule, not an official rule (houserule)
     validations:
       required: true
   - type: input

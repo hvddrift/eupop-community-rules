@@ -14,7 +14,9 @@ Rule references in this repo are to the **third printing (2026) multiplayer rule
 |---|---|
 | Understand Peace Resolution in plain English | [docs/peace-resolution/00-overview.md](docs/peace-resolution/00-overview.md) |
 | See worked examples | [cases/peace-resolution/](cases/peace-resolution/) |
+| Wars, Truces and other general rules | [docs/general/](docs/general/README.md) |
 | See what we are still unsure about | [docs/open-questions.md](docs/open-questions.md) |
+| Known chart and printing issues | [docs/known-issues.md](docs/known-issues.md) |
 | Add an example or ask a question | [CONTRIBUTING.md](CONTRIBUTING.md) |
 
 ## How much to trust each example
@@ -27,8 +29,11 @@ Every case carries a status so nobody mistakes a guess for an official ruling.
 | 🟡 `consensus` | Agreed by experienced players in the community discussion (link required) |
 | 🔵 `rules-derived` | Follows directly from the rulebook text; page references given |
 | 🔴 `disputed` | The rules are unclear or players disagree; see the open question |
+| 🟣 `houserule` | A table houserule some groups use. **Not** an official rule |
 
-Seed examples start as 🔵 or 🔴. Moving a case up to 🟡 or 🟢 requires a link to the discussion or ruling.
+Seed examples start as 🔵 or 🔴.
+
+**Whose word counts.** A ruling from the game's designer (Eivind at Aegir Games) is the top tier and earns 🟢. Mikhs (developer) is usually the correct answer and also earns 🟢 when the ruling is explicit. Experienced community players (for example Atlas, Miroku20X6, damifoe) are 🟡 unless a designer confirms. Dates are shown beside community rulings, because answers can be superseded. Moving a case up to 🟡 or 🟢 requires a link to the discussion or ruling.
 
 ## Maintainers
 

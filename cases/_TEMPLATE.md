@@ -1,7 +1,7 @@
 ---
 id: TEMPLATE
 title: Short description of the situation
-status: rules-derived   # confirmed | consensus | rules-derived | disputed
+status: rules-derived   # confirmed | consensus | rules-derived | disputed | houserule
 printing: third-2026
 rules: ["§10.1 p.29"]   # section + page for every rule you rely on
 tags: [peace-resolution]   # e.g. automatic-white-peace, total-victory, partial-victory, surrender, active-allies, humiliation, truce

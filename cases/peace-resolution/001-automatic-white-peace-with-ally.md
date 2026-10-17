@@ -29,7 +29,7 @@ A and B are in a stalemate. Does A have to make peace with C separately, and wha
 3. The war ends immediately as a White Peace. A is now at peace with **B and C** (§10.3, Automatic White Peace).
 4. **Prestige:** each PR loses **1 Prestige per White Peace it enters**. A and B each lose 1. C is an NPR, so nothing happens to it (Player Aid B, the "End all such Wars with White Peace terms" box).
 5. Truce: A and B get a Truce. **C gets no Truce token** because Truces are never placed on Active Allies of former enemies (§10.4).
-6. Aftermath: units in Neutral Areas relocate to the nearest Friendly Area (at no cost), B's ally token flips back to the War side, and allied units return to the General Supply (§10.1 step 4).
+6. Aftermath: units in Neutral Areas relocate to the nearest Friendly Area (at no cost), B's ally token flips back to the **Alliance** side (§10.1 step 4), and allied units return to the General Supply (§10.1 step 4).
 
 ## Why (the intent)
 Automatic White Peace is a "nothing happened" reset, so there are no winners to demand terms or split allies off.

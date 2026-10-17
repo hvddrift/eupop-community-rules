@@ -17,21 +17,28 @@ flowchart TD
     C -- yes --> C1[Resolve Total Victories in turn order.<br/>Each player finishes all theirs before the next.<br/>Victor MUST enforce a term unless a Negotiated Peace is agreed]
     C -- no --> D
     C1 --> D[3. Remaining wars:<br/>first player, then clockwise.<br/>Each player resolves all the wars they WANT to end, any order]
-    D --> D1{Victory level?}
+    D --> D0[A Total Victory can still arise here<br/>because of earlier deals. Resolve it then.]
+    D0 --> D1{Victory level?}
     D1 -- Partial --> D2[Enforce a term,<br/>or negotiate if the enemy is human]
     D1 -- Inconclusive --> D3[White Peace or Negotiated Peace only.<br/>NPR/Bot accept White Peace]
     D1 -- Surrender --> D4[Enemy treated as Partial Victor<br/>and must end the war this round]
     D2 --> E
     D3 --> E
     D4 --> E
-    E[4. Aftermath:<br/>relocate units in Neutral Areas,<br/>flip ally tokens back to War side,<br/>return allied units to General Supply]
+    E[4. Aftermath:<br/>relocate units in Neutral Areas,<br/>flip ally tokens back to the Alliance side,<br/>return allied units to General Supply]
     E --> F[Truce tokens placed: §10.4]
 ```
 
 Two details that are easy to miss:
 - **Step 3 is optional per war, but there are no take-backs.** You may leave a war running if the only terms you can enforce are bad (§10.2). But once a player has answered "no, I don't want to end a war" they cannot answer "yes" later in the Peace Resolution step that Round (Player Aid B, footnote 3).
 - **If the Victor is a Bot,** the official chart sends you to *Bot Peace Resolution* in the Solo & Bot rules (p.15) instead of the steps below.
-- **Vassals count as part of their Overlord's Realm** for everything here (§10, intro).
+- **Vassals count as part of their Overlord's Realm** for everything here (§10, intro; for NPRs also §13.2, p.35). See [PR-015](../../cases/peace-resolution/015-npr-with-vassals.md).
+- **You Enforce on your own turn only.** The steps run in Turn Order, and the designer confirmed you can only Enforce Peace Terms on *your* turn (🟢 Eivind, Sep 2026). You may still negotiate on your turn. See [PR-019](../../cases/peace-resolution/019-enforce-on-your-own-turn.md).
+- **A Total Victory can arise in step 3.** One player's deal can change another war, so a Total Victory that did not exist in step 2 can appear later and is resolved then (🟢 Mikhs, May 2026). Step 2 is mandatory (the Victor *must* enforce a term unless a Negotiated Peace is agreed). In step 3 enforcing is optional. See [PR-010](../../cases/peace-resolution/010-total-victory-created-by-another-peace.md), [PR-011](../../cases/peace-resolution/011-total-victory-removes-ally-then-white-peace.md), [PR-012](../../cases/peace-resolution/012-total-victory-after-partial-victory-resolves.md).
+- **Allies resolve separately, unless the ally is an NPR Active Ally.** Two PRs at war with the same enemy each get their own Peace Resolution, in Turn Order, and their occupied Provinces do **not** combine for Total Victory (🟢 Eivind, Sep 2026). See [PR-013](../../cases/peace-resolution/013-two-prs-one-npr.md), [PR-016](../../cases/peace-resolution/016-two-allied-prs-one-human-enemy.md).
+- **Only PRs can be Victors.** NPRs never Occupy Provinces, so a successful NPR Invasion leaves Rebels. See [PR-014](../../cases/peace-resolution/014-npr-counter-invasion-rebels.md).
+- **Automatic White Peace is not the White Peace term.** It ends the war on the current board and does **not** restore pre-war conditions, and Prestige is still lost (Player Aid B; 🟢 Mikhs, Sep 2026).
+- **Ducats in one peace are settled together** (🟡 Miroku20X6, Oct 2026): see [PR-017](../../cases/peace-resolution/017-negotiated-peace-ducats-settled-together.md).
 
 ## How well did you win? (table, p. 29)
 
@@ -71,6 +78,16 @@ Eligibility depends on your victory level and on **who the loser is**.
 ## Truces (§10.4)
 
 After peace, the parties enter a **Truce until Phase 3 of the next Round**. War tokens flip to the Truce side. **No Truce on Active Allies of former enemies, never on Vassals.** A Truce normally blocks declaring war, but a **CB token ignores the ban**.
+
+## Defending the HRE (§18.4, p.44) 🔵
+
+While the Emperor has the **Defending the HRE** slot tagged, an **external Aggressor** may **never** resolve peace separately with an NPR Imperial Subject, **unless** they have a Total or Partial Victory over the Emperor. Otherwise they must resolve peace with the **Emperor**, and any NPR Imperial Subjects at war with the Emperor's enemies are treated as the Emperor's **Active Allies**. This is why War token placement matters for the HRE: see [Wars and Truces](../general/wars-and-truces.md).
+
+## Table houserules (🟣 not official)
+
+Some tables play slightly differently. These are **not** the rules, and each is labelled in its case:
+- Allow a **joint annexation** when allied PRs between them hold every Province ([PR-013](../../cases/peace-resolution/013-two-prs-one-npr.md)).
+- Allow negotiation to happen **twice**, so players can react to resolutions between their turns ([PR-019](../../cases/peace-resolution/019-enforce-on-your-own-turn.md)).
 
 ## Cases
 
